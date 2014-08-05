@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9A1BA7AD198F636400D74012"
-               BuildableName = "SecondTrySwift.app"
-               BlueprintName = "SecondTrySwift"
-               ReferencedContainer = "container:SecondTrySwift.xcodeproj">
+               BuildableName = "SwiftCalculator.app"
+               BlueprintName = "SwiftCalculator"
+               ReferencedContainer = "container:SwiftCalculator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9A1BA7BF198F636500D74012"
-               BuildableName = "SecondTrySwiftTests.xctest"
-               BlueprintName = "SecondTrySwiftTests"
-               ReferencedContainer = "container:SecondTrySwift.xcodeproj">
+               BuildableName = "SwiftCalculatorTests.xctest"
+               BlueprintName = "SwiftCalculatorTests"
+               ReferencedContainer = "container:SwiftCalculator.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9A1BA7AD198F636400D74012"
-            BuildableName = "SecondTrySwift.app"
-            BlueprintName = "SecondTrySwift"
-            ReferencedContainer = "container:SecondTrySwift.xcodeproj">
+            BuildableName = "SwiftCalculator.app"
+            BlueprintName = "SwiftCalculator"
+            ReferencedContainer = "container:SwiftCalculator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9A1BA7AD198F636400D74012"
-            BuildableName = "SecondTrySwift.app"
-            BlueprintName = "SecondTrySwift"
-            ReferencedContainer = "container:SecondTrySwift.xcodeproj">
+            BuildableName = "SwiftCalculator.app"
+            BlueprintName = "SwiftCalculator"
+            ReferencedContainer = "container:SwiftCalculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9A1BA7AD198F636400D74012"
-            BuildableName = "SecondTrySwift.app"
-            BlueprintName = "SecondTrySwift"
-            ReferencedContainer = "container:SecondTrySwift.xcodeproj">
+            BuildableName = "SwiftCalculator.app"
+            BlueprintName = "SwiftCalculator"
+            ReferencedContainer = "container:SwiftCalculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

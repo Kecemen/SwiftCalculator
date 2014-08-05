@@ -25,13 +25,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9A1BA7AE198F636400D74012 /* SecondTrySwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondTrySwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A1BA7AE198F636400D74012 /* SwiftCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A1BA7B2198F636500D74012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A1BA7B3198F636500D74012 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A1BA7B5198F636500D74012 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9A1BA7B8198F636500D74012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A1BA7BA198F636500D74012 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		9A1BA7C0198F636500D74012 /* SecondTrySwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondTrySwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A1BA7C0198F636500D74012 /* SwiftCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A1BA7C5198F636500D74012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A1BA7C6198F636500D74012 /* SecondTrySwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTrySwiftTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,7 +57,7 @@
 		9A1BA7A5198F636400D74012 = {
 			isa = PBXGroup;
 			children = (
-				9A1BA7B0198F636400D74012 /* SecondTrySwift */,
+				9A1BA7B0198F636400D74012 /* SwiftCalculator */,
 				9A1BA7C3198F636500D74012 /* SecondTrySwiftTests */,
 				9A1BA7AF198F636400D74012 /* Products */,
 			);
@@ -66,13 +66,13 @@
 		9A1BA7AF198F636400D74012 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A1BA7AE198F636400D74012 /* SecondTrySwift.app */,
-				9A1BA7C0198F636500D74012 /* SecondTrySwiftTests.xctest */,
+				9A1BA7AE198F636400D74012 /* SwiftCalculator.app */,
+				9A1BA7C0198F636500D74012 /* SwiftCalculatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9A1BA7B0198F636400D74012 /* SecondTrySwift */ = {
+		9A1BA7B0198F636400D74012 /* SwiftCalculator */ = {
 			isa = PBXGroup;
 			children = (
 				9A1BA7B3198F636500D74012 /* AppDelegate.swift */,
@@ -81,6 +81,7 @@
 				9A1BA7BA198F636500D74012 /* Images.xcassets */,
 				9A1BA7B1198F636400D74012 /* Supporting Files */,
 			);
+			name = SwiftCalculator;
 			path = SecondTrySwift;
 			sourceTree = "<group>";
 		};
@@ -112,9 +113,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9A1BA7AD198F636400D74012 /* SecondTrySwift */ = {
+		9A1BA7AD198F636400D74012 /* SwiftCalculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A1BA7CA198F636500D74012 /* Build configuration list for PBXNativeTarget "SecondTrySwift" */;
+			buildConfigurationList = 9A1BA7CA198F636500D74012 /* Build configuration list for PBXNativeTarget "SwiftCalculator" */;
 			buildPhases = (
 				9A1BA7AA198F636400D74012 /* Sources */,
 				9A1BA7AB198F636400D74012 /* Frameworks */,
@@ -124,14 +125,14 @@
 			);
 			dependencies = (
 			);
-			name = SecondTrySwift;
+			name = SwiftCalculator;
 			productName = SecondTrySwift;
-			productReference = 9A1BA7AE198F636400D74012 /* SecondTrySwift.app */;
+			productReference = 9A1BA7AE198F636400D74012 /* SwiftCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9A1BA7BF198F636500D74012 /* SecondTrySwiftTests */ = {
+		9A1BA7BF198F636500D74012 /* SwiftCalculatorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A1BA7CD198F636500D74012 /* Build configuration list for PBXNativeTarget "SecondTrySwiftTests" */;
+			buildConfigurationList = 9A1BA7CD198F636500D74012 /* Build configuration list for PBXNativeTarget "SwiftCalculatorTests" */;
 			buildPhases = (
 				9A1BA7BC198F636500D74012 /* Sources */,
 				9A1BA7BD198F636500D74012 /* Frameworks */,
@@ -142,9 +143,9 @@
 			dependencies = (
 				9A1BA7C2198F636500D74012 /* PBXTargetDependency */,
 			);
-			name = SecondTrySwiftTests;
+			name = SwiftCalculatorTests;
 			productName = SecondTrySwiftTests;
-			productReference = 9A1BA7C0198F636500D74012 /* SecondTrySwiftTests.xctest */;
+			productReference = 9A1BA7C0198F636500D74012 /* SwiftCalculatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -165,7 +166,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9A1BA7A9198F636400D74012 /* Build configuration list for PBXProject "SecondTrySwift" */;
+			buildConfigurationList = 9A1BA7A9198F636400D74012 /* Build configuration list for PBXProject "SwiftCalculator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -178,8 +179,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9A1BA7AD198F636400D74012 /* SecondTrySwift */,
-				9A1BA7BF198F636500D74012 /* SecondTrySwiftTests */,
+				9A1BA7AD198F636400D74012 /* SwiftCalculator */,
+				9A1BA7BF198F636500D74012 /* SwiftCalculatorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -226,7 +227,7 @@
 /* Begin PBXTargetDependency section */
 		9A1BA7C2198F636500D74012 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9A1BA7AD198F636400D74012 /* SecondTrySwift */;
+			target = 9A1BA7AD198F636400D74012 /* SwiftCalculator */;
 			targetProxy = 9A1BA7C1198F636500D74012 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -327,7 +328,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SecondTrySwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftCalculator;
 			};
 			name = Debug;
 		};
@@ -338,7 +339,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SecondTrySwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftCalculator;
 			};
 			name = Release;
 		};
@@ -356,7 +357,7 @@
 				);
 				INFOPLIST_FILE = SecondTrySwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftCalculatorTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Debug;
@@ -371,7 +372,7 @@
 				);
 				INFOPLIST_FILE = SecondTrySwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftCalculatorTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
@@ -379,7 +380,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9A1BA7A9198F636400D74012 /* Build configuration list for PBXProject "SecondTrySwift" */ = {
+		9A1BA7A9198F636400D74012 /* Build configuration list for PBXProject "SwiftCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A1BA7C8198F636500D74012 /* Debug */,
@@ -388,21 +389,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A1BA7CA198F636500D74012 /* Build configuration list for PBXNativeTarget "SecondTrySwift" */ = {
+		9A1BA7CA198F636500D74012 /* Build configuration list for PBXNativeTarget "SwiftCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A1BA7CB198F636500D74012 /* Debug */,
 				9A1BA7CC198F636500D74012 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		9A1BA7CD198F636500D74012 /* Build configuration list for PBXNativeTarget "SecondTrySwiftTests" */ = {
+		9A1BA7CD198F636500D74012 /* Build configuration list for PBXNativeTarget "SwiftCalculatorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A1BA7CE198F636500D74012 /* Debug */,
 				9A1BA7CF198F636500D74012 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
